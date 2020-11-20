@@ -2,15 +2,10 @@
 
 namespace ContosoUniversity.Migrations
 {
-    public partial class ColumnFirstName2 : Migration
+    public partial class MaxLengthOnNames : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.RenameColumn(
-                name: "FirstMidName",
-                table: "Student",
-                newName: "FirstName");
-
             migrationBuilder.AlterColumn<string>(
                 name: "LastName",
                 table: "Student",
@@ -20,7 +15,7 @@ namespace ContosoUniversity.Migrations
                 oldNullable: true);
 
             migrationBuilder.AlterColumn<string>(
-                name: "FirstName",
+                name: "FirstMidName",
                 table: "Student",
                 maxLength: 50,
                 nullable: true,
@@ -30,11 +25,6 @@ namespace ContosoUniversity.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.RenameColumn(
-                name: "FirstName",
-                table: "Student",
-                newName: "FirstMidName");
-
             migrationBuilder.AlterColumn<string>(
                 name: "LastName",
                 table: "Student",
