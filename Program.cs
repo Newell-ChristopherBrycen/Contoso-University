@@ -5,7 +5,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
 using Microsoft.AspNetCore;
-using Contoso_University;
+using ContosoUniversity;
 
 namespace ContosoUniversity
 {
