@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 using ContosoUniversity.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace Contoso_University
+namespace ContosoUniversity
 {
     public class Startup
     {

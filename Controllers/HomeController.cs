@@ -6,7 +6,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Contoso_University.Controllers
+namespace ContosoUniversity.Controllers
 {
     public class HomeController : Controller
     {

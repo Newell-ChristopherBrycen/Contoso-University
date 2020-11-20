@@ -3,8 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <RootNamespace>Contoso_University</RootNamespace>
+    <RootNamespace>ContosoUniversity</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Controllers\HomeController.cs" />
+    <Content Include="Controllers\StudentsController.cs" />
+  </ItemGroup>
 
 
   <ItemGroup>
