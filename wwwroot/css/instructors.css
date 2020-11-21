@@ -29,10 +29,11 @@ body {
 
 #HomepageBody::before {
     content: "";
-    background-image: url(../Pictures/BuildingFront.jpeg);
+    background-image: url(../Pictures/professor.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+   
+    position:absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -73,6 +74,7 @@ footer {
     footer div.container {
         color: #ffcc00;
     }
+
 #myBody {
     background-color: #e9ecef;
     border: .35rem;
@@ -83,4 +85,18 @@ footer {
     border-color: black;
     padding: 1rem;
     color: black;
+}
+#myBody a {
+    color: black;
+    font-weight: bold;
+}
+#myBody input {
+    color: black;
+    font-weight: bold;
+}
+.btn-default, .btn-primary {
+    background-color: #ffcc00;
+    
+    border-color: #ffcc00;
+    
 }

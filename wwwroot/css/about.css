@@ -24,7 +24,7 @@ body {
 }
 
     .jumbotron h1 {
-        color: blanchedalmond;
+        color: #ffcc00;
     }
 
 #HomepageBody::before {
@@ -41,18 +41,18 @@ body {
 }
 
 a {
-    color: blanchedalmond;
+    color: #ffcc00;
 }
 
     a.btn.btn-default {
-        color: blanchedalmond;
+        color: #ffcc00;
         background-color: #e9ecef;
     }
 
 .row {
     background-color: #e9ecef;
     border: 2rem;
-    border-color: blanchedalmond;
+    border-color: #ffcc00;
 }
 
 .col-md-3 {
@@ -71,17 +71,50 @@ footer {
 }
 
     footer div.container {
-        color: blanchedalmond;
+        color: #ffcc00;
     }
 
 #myBody {
     background-color: #e9ecef;
     border: .35rem;
-    border-color: blanchedalmond;
+    border-color: #ffcc00;
     opacity: 1;
     position: relative;
     border-style: solid;
     border-color: black;
     padding: 1rem;
     color: black;
+}
+#contact {
+    font-weight: bold;
+}
+#myTable {
+    border-collapse: collapse;
+    border-color: aliceblue;
+    border: .2rem;
+    border-style: inherit;
+}
+tbody {
+    border-color: black;
+}
+th {
+    border-style: solid;
+    
+    text-align: left;
+    padding: .2rem;
+}
+td {
+    border-style: solid;
+    
+    text-align: left;
+    padding: .2rem;
+}
+tr {
+    border-style: solid;
+    
+    text-align: left;
+    border-width: 1px 0;
+}
+#firstrow {
+    background-color: #ffcc00;
 }

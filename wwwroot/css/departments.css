@@ -24,15 +24,16 @@ body {
 }
 
     .jumbotron h1 {
-        color: blanchedalmond;
+        color: #ffcc00;
     }
 
 #HomepageBody::before {
     content: "";
-    background-image: url(../Pictures/StudyPython.jpeg);
+    background-image: url(../Pictures/BooksGalore.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+   
+    position:absolute;
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -41,18 +42,18 @@ body {
 }
 
 a {
-    color: blanchedalmond;
+    color: #ffcc00;
 }
 
     a.btn.btn-default {
-        color: blanchedalmond;
+        color: #ffcc00;
         background-color: #e9ecef;
     }
 
 .row {
     background-color: #e9ecef;
     border: 2rem;
-    border-color: blanchedalmond;
+    border-color: #ffcc00;
 }
 
 .col-md-3 {
@@ -71,13 +72,13 @@ footer {
 }
 
     footer div.container {
-        color: blanchedalmond;
+        color: #ffcc00;
     }
 
 #myBody {
     background-color: #e9ecef;
     border: .35rem;
-    border-color: blanchedalmond;
+    border-color: #ffcc00;
     opacity: 1;
     position: relative;
     border-style: solid;
@@ -94,6 +95,6 @@ footer {
     font-weight: bold;
 }
 .btn-default {
-    background-color: blanchedalmond;
-    border-color: blanchedalmond;
+    background-color: #ffcc00;
+    border-color: #ffcc00;
 }
