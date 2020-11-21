@@ -23,6 +23,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #ffcc00;
+    border-radius: 1.5rem;
 }
 .jumbotron h1 {
     color:black;
@@ -48,6 +49,11 @@ a {
         color: black;
         background-color: #ffcc00;
         text-align: left;
+        border-radius: .5rem;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        
     }
 .row {
     background-color: none;
@@ -58,7 +64,7 @@ a {
     border-style: solid;
     border-color: black;
     border-width: .2rem;
-    padding: 1rem;
+    padding: .8rem;
     margin: auto;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
@@ -66,6 +72,12 @@ a {
     flex: 0 0 32%;
     max-width: 32%;
     border-radius: 1.4rem;
+}
+.col-md-3 h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight:bolder;
+    text-decoration:underline;
 }
 footer {
     background-color: #343a40;
