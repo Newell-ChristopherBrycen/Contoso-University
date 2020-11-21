@@ -1,0 +1,88 @@
+﻿html {
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Merriweather Sans', sans-serif;
+    color: black;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background-color: rebeccapurple;
+}
+
+.jumbotron {
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    border: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .jumbotron h1 {
+        color: blanchedalmond;
+    }
+
+#HomepageBody::before {
+    content: "";
+    background-image: url(../Pictures/BuildingFront.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.6;
+}
+
+a {
+    color: blanchedalmond;
+}
+
+    a.btn.btn-default {
+        color: blanchedalmond;
+        background-color: #e9ecef;
+    }
+
+.row {
+    background-color: #e9ecef;
+    border: 2rem;
+    border-color: blanchedalmond;
+}
+
+.col-md-3 {
+    border-style: solid;
+    border-color: black;
+    border-width: .2rem;
+    padding: 1rem;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    background-color: #e9ecef;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+    footer div.container {
+        color: blanchedalmond;
+    }
+#myBody {
+    background-color: #e9ecef;
+    border: .35rem;
+    border-color: blanchedalmond;
+    opacity: 1;
+    position: relative;
+    border-style: solid;
+    border-color: black;
+    padding: 1rem;
+   color: black;
+    
+    
+}
